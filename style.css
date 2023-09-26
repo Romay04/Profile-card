@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: hsl(229, 23%, 23%);
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+.bgtop{
+    background-image: url(images/bg-pattern-top.svg);
+    width: 100%; height: 100%; 
+    transform: rotate(-135deg); 
+    transform-origin: 0 0; 
+    opacity: 0.50; 
+    background: linear-gradient(180deg, rgba(8.53, 137.30, 179.65, 0) 0%, #53FFEE 100%); 
+    border-radius: 9999px;
+
+}
+.bgdown{
+    background-image: url(images/bg-pattern-bottom.svg);
+    width: 100%; 
+    height: 100%; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 0; 
+    opacity: 0.25; 
+    background: linear-gradient(180deg, rgba(8.53, 137.30, 179.65, 0) 0%, #53FFEE 100%); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 9999px;
+}
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3%;
+}
+
+.imgdown img {
+    position: relative;
+    border-radius: 3%;
+
+}
+
+.imgtop img {
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -17%;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 100%);
+    border: 10px solid hsl(0, 0%, 100%);
+}
+
+.write {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.name {
+    font-size: 1.4rem;
+}
+
+.num {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+
+.town {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+    margin-top: 4%;
+
+}
+
+.socials {
+    border-top: 1px solid hsl(0, 10%, 88%);
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: space-between
+}
+
+.free {
+    font-size: 18px;
+    padding-right: 25px
+
+}
+
+.word {
+    display: block;
+    font-weight: 300;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+@media screen and (min-width: 375px){
+
+}
